@@ -10,7 +10,7 @@ date: "February 20 2019"
 
 - Pure theory development to unpack asymmetry in fluxes
   - Get two-patch metaecosystem models closer to empirical systems by looking at couplings between different type of ecosystem (Forest-lake, benthic-pelagic..). Look at how different fluxes influence stability.
-  - Reciprocal vs. asymmetric fluxes, effect on stability
+  - Reciprocal vs. asymmetry of fluxes on stability
 
 - Literature review on spatial cascade
   - Review literature in the light of the meta-ecosystem concept to highlight the relevance of the spatial cascade concept
@@ -47,14 +47,17 @@ Main steps:
 
 ![](Sign_matrix.png)
 
+
 - Build the jacobian from the direct effect matrix (to be done)
 - Inverse the jacobian to get the 'net' effect matrix (as per figure above) (to be done)
+- Voilà!
 
 # Manuscript outline
 We did not have time for a group discussion on this. Based on one on one discussions I had with different participants here is my proposition for how to incorporate the blueprint, which would become the core of the article, within the current manuscript.
 
 ## 1. Toward a useful metaecosystem theory (let's be bold!)
 Here we place our work in the following context:
+- Global ecosystems are in a fragile balance with sometime important parts of their budget being dependent on external fluxes (Polis et al., 1997). The metaecosystem concept proposes that....
 - Metaecosystem theory, although being wide and plenty in the literature, is not currently useful for empirical purpose because of its high level of abstraction using unrealistic assumptions for natural systems. (could potentially give the metacommunity theory as a contrast here)
 - To demonstrate that metaecosystem can be useful in natural systems we need to first build models based on real systems. For this, a focus on spatial cascades in particular could be especially relevant.
 - *Here we propose to i) build the first empirical metaecosystem model based on the Hubbard brook lake-forest couplings. We then ii) discuss the need to develop an understanding of the regional level implications of spatial cascades, and finally iii) discuss future challenges in the implementation of the metaecosystem concept to empirical systems (i.e., very greedy on data needed)*
@@ -62,8 +65,8 @@ Here we place our work in the following context:
 ## 2. The first metaecosystem blueprint
 We present the blueprint with nice figures and results.
 
-## 3. Implications of metaecosystem dynamics for regional scale functioning - the next frontier
-Here we basically recycle almost everything (including the very nice figures we have) from the current manuscript, discussing how local spatial cascade could have regional scale implications for ecosystem functioning, and how a similar matrix-based framework to the one we used for the blueprint can be used to scale-up to the regional scale (i.e., by unpacking the net effect matrix as the product of a physical connectivity matrix and a movement matrix; the physical connectivity matrix allows us to integrate the regional scale within the framework).
+## 3. Implications of metaecosystem dynamics for the regional scale - the next frontier
+Here we basically recycle almost everything from the current manuscript (a reduced more synthetic version), discussing how local spatial cascade could have regional scale implications for ecosystem functioning, and how a similar matrix-based framework to the one we used for the blueprint can be used to scale-up to the regional scale. Basically, the matrix approach used in section 2 can be equivalent to the framework we developed in the first version of the manuscript. The direct effect matrix is the outcome of the product of a physical connectivity (landscape configuration) and a movement matrix.
 
-## 4. Future challenges of implementations
-Here it could be interesting to discuss challenges in terms of actual implementation. No one will ever monitor all fluxes at the whole watershed level and not so many systems are monitored at the Hubbard Brook level. To be really useful we will need to understand how to use currently available data to test metaecosystem predictions (what Kevin M. named "byproducts of metaecosystem dynamics"). I don't think we can offer a final answer here - this is an opening and this ties in with one of our project ideas mentioned in the first section of this document using the Swiss and TRCA data.
+## 4. Empirical metaecosystems: implementation and future challenges
+The problem indeed is that there are few Hubbard brook out there and probably no data including fluxes for a whole landscape. Here it could be interesting to discuss challenges in terms of actual implementation. No one will ever monitor all fluxes at the whole watershed level and not so many systems are monitored at the Hubbard Brook level. To be really useful we will need to understand how to use currently available data to test metaecosystem predictions (what Kevin M. named "byproducts of metaecosystem dynamics"). I don't think we can offer a final answer here - this is an opening and this ties in with one of our project ideas mentioned in the first section of this document using the Swiss and TRCA data. We could also discuss issues related to temporal dynamics (fluxes in nature are not at steady state as assumed with our approach and the strength of spatial cascade will vary widely with time), scaling movements of organisms from different trophic level in the landscape (to extend at landscape scale we need to include those movements), and the bi-directional nature of fluxes and potential feedbacks (highlighting that evidence suggest that donor-control is probably more the rule than the exception and citing here Gounand et al., 2019 NATCOM).
